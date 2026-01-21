@@ -19,8 +19,8 @@ export default function Header() {
                   <li><a href="#features" aria-label="Menu link">Features</a></li>
                   <li><a href="#pricing" aria-label="Menu link">Pricing</a></li>
                   <li><a href="#contact" aria-label="Menu link">Contact</a></li>
-                  <li><a href="#" className="cs_heading_color">Owner Login</a></li>
-                  <li><a href="#" className="cs_heading_color">Staff Login</a></li>
+                  {/* <li><a href="#" className="cs_heading_color">Owner Login</a></li> */}
+                  {/* <li><a href="#" className="cs_heading_color">Staff Login</a></li> */}
                 </ul>
               </div>
             </div>
