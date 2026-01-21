@@ -33,7 +33,6 @@ export default function Hero() {
                 <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
-            
             {/* Dashboard Preview - Laptop Style Half-Overlap */}
             <style>
               {`

@@ -115,7 +115,7 @@ export default function Footer() {
                     }}
                   >
                     <span>Subscribe</span>
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
                   </button>
                 </form>
               </div>

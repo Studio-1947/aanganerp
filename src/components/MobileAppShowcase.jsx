@@ -230,7 +230,7 @@ export default function MobileAppShowcase() {
                     border: 'none'
                   }}>
                     <span>Register Interest</span>
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
                   </a>
                 </div>
               </ScrollReveal>
