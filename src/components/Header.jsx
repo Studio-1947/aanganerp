@@ -25,7 +25,16 @@ export default function Header() {
               </div>
             </div>
             <div className="cs_main_header_right">
-              <a href="#contact" aria-label="Register Interest" className="cs_btn cs_style_1 cs_bg_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
+              <a 
+                href="#" 
+                aria-label="Register Interest" 
+                className="cs_btn cs_style_1 cs_bg_1 cs_fs_14 cs_bold cs_white_color text-uppercase"
+                data-tally-open="A7Bz8z" 
+                data-tally-layout="modal" 
+                data-tally-overlay="1" 
+                data-tally-emoji-text="👋" 
+                data-tally-emoji-animation="wave"
+              >
                 <span>Register Interest</span>
                 <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
               </a>

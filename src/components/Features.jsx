@@ -20,7 +20,16 @@ export default function Features() {
         <div className="cs_features_items_wrapper position-relative z-1">
           <div className="cs_feature_item cs_radius_20 cs_bg_filed" style={{backgroundImage: 'url(/assets/img/feature-item-bg.svg)'}}>
             <h3 className="cs_fs_36 cs_semibold cs_white_color cs_mb_40">Streamline your operations <br /> and grow your business</h3>
-            <a href="#contact" aria-label="Register Interest" className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
+            <a 
+              href="#" 
+              aria-label="Register Interest" 
+              className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase"
+              data-tally-open="A7Bz8z" 
+              data-tally-layout="modal" 
+              data-tally-overlay="1" 
+              data-tally-emoji-text="👋" 
+              data-tally-emoji-animation="wave"
+            >
               <span>Register Interest</span>
               <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
             </a>

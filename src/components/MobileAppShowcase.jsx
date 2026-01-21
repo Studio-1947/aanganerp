@@ -60,7 +60,7 @@ export default function MobileAppShowcase() {
                 filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.15))'
               }}>
                 <img 
-                  src="/staffview2.png" 
+                  src="/staffview2.webp" 
                   alt="Staff Mobile App Screenshot" 
                   className="rounded-3xl" 
                   style={{ 
@@ -217,18 +217,28 @@ export default function MobileAppShowcase() {
               {/* CTA Button */}
               <ScrollReveal delay={0.7}>
                 <div style={{ marginTop: '16px' }}>
-                  <a href="#contact" aria-label="Register Interest" className="cs_btn cs_style_1 cs_fs_14 cs_bold text-uppercase" style={{
-                    background: 'linear-gradient(135deg, #F4A261 0%, #e08e4d 100%)',
-                    color: '#1e293b',
-                    padding: '16px 32px',
-                    borderRadius: '12px',
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    boxShadow: '0 8px 24px rgba(244, 162, 97, 0.3)',
-                    transition: 'all 0.3s ease',
-                    border: 'none'
-                  }}>
+                  <a 
+                    href="#" 
+                    aria-label="Register Interest" 
+                    className="cs_btn cs_style_1 cs_fs_14 cs_bold text-uppercase" 
+                    data-tally-open="A7Bz8z" 
+                    data-tally-layout="modal" 
+                    data-tally-overlay="1" 
+                    data-tally-emoji-text="👋" 
+                    data-tally-emoji-animation="wave"
+                    style={{
+                      background: 'linear-gradient(135deg, #F4A261 0%, #e08e4d 100%)',
+                      color: '#1e293b',
+                      padding: '16px 32px',
+                      borderRadius: '12px',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '12px',
+                      boxShadow: '0 8px 24px rgba(244, 162, 97, 0.3)',
+                      transition: 'all 0.3s ease',
+                      border: 'none'
+                    }}
+                  >
                     <span>Register Interest</span>
                     <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
                   </a>

@@ -24,7 +24,16 @@ export default function Hero() {
 
           <ScrollReveal delay={0.4}>
             <div className="cs_btns_group">
-              <a href="#contact" aria-label="Register Interest" className="cs_btn cs_style_1 cs_fs_16 cs_bold cs_heading_color cs_gray_bg_2 text-uppercase">
+              <a 
+                href="#" 
+                aria-label="Register Interest" 
+                className="cs_btn cs_style_1 cs_fs_16 cs_bold cs_heading_color cs_gray_bg_2 text-uppercase"
+                data-tally-open="A7Bz8z" 
+                data-tally-layout="modal" 
+                data-tally-overlay="1" 
+                data-tally-emoji-text="👋" 
+                data-tally-emoji-animation="wave"
+              >
                 <span>Register Interest</span>
                 <span className="cs_btn_icon"><i className="fa-solid fa-arrow-right"></i></span>
               </a>
@@ -60,7 +69,7 @@ export default function Hero() {
                    
                    {/* The Image */}
                    <img 
-                     src="/hero2.png" 
+                     src="/hero2.webp" 
                      alt="Aangan ERP Dashboard" 
                      className="w-full h-auto rounded-[1.2rem] shadow-inner bg-black block"
                    />
