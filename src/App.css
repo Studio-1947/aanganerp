@@ -1,0 +1,19 @@
+/* Removing default Vite styles that restricted #root width */
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Fix Large Screen Layout Consistency to match Header */
+/* @media (min-width: 1400px) {
+  .cs_hero.cs_style_2 .container {
+    max-width: 1800px; /* Aligns hero content with the wide header */
+  /* } */
+  
+  /* Optional: Ensure banner aligns if wrapper is used, though it currently uses inner container */
+  /* .cs_banner.cs_style_1 .container {
+      max-width: 1800px;
+  } */
+/* }  */
